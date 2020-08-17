@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting -->
+    <style name="LaunchTheme" parent="@style/Theme.AppCompat.Light">
+
+        <!--  The statusbar color is overridden to match the statusbar color set in Flutter -->
+        <item name="android:statusBarColor">#42000000</item>
+        <!--  Request the statusbar has dark icons -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+    <style name="NormalTheme" parent="@style/Theme.AppCompat.Light">
+
+        <!--  The statusbar color is overridden to match the statusbar color set in Flutter -->
+        <item name="android:statusBarColor">#42000000</item>
+        <!--  Request the statusbar has dark icons -->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>
